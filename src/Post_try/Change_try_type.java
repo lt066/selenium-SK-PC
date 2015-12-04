@@ -20,9 +20,9 @@ public class Change_try_type {
 	  private WebDriver driver;
 	  public StringBuffer verificationErrors = new StringBuffer();
 	  public String baseUrl;
-	  public String seller_uanme = "suser004";
+	  public String seller_uanme = "zxczxc";
 	  public String passwd = "zxc123";
-	  public String try_title = "ca手淘下单活动-12/01-紫金-1";
+	  public String try_title = "二维码活动-12/01-单期-4";
 	
 	  @Before
 	  public void setUp() throws Exception{
@@ -56,7 +56,7 @@ public class Change_try_type {
 		 		      General_try ge = new General_try();
 		 		      ge.driver = driver;
 		 		      ge.is_qr_order = true;
-					  ge.try_title = "ca二维码活动-12/01-紫金-";
+					  ge.try_title = "ca二维码活动-12/01-单期-";
 					  try_title = ge.try_title;
 					  ge.joided_buyer_limits = false;
 		        	  ge.clear();
@@ -69,7 +69,7 @@ public class Change_try_type {
 		          case 8:
 		 		      General_try ge1 = new General_try();
 		 		      ge1.driver = driver;
-					  ge1.try_title = "ca普通活动-12/01-紫金-";
+					  ge1.try_title = "ca普通活动-12/01-单期-";
 					  try_title = ge1.try_title;
 		 		      ge1.is_qr_order = false;
 		 		      ge1.joided_buyer_limits = false;
@@ -84,7 +84,7 @@ public class Change_try_type {
 		 		      View_try vt = new View_try();
 		 		      vt.driver = driver;
 		 		      vt.joided_buyer_limits = false;
-					  vt.try_title = "ca答案活动-12/01-紫金-";
+					  vt.try_title = "ca答案活动-12/01-单期-";
 					  try_title = vt.try_title;
 		 		      vt.clear();
 		 		      vt.testWebtest1();
@@ -97,7 +97,7 @@ public class Change_try_type {
 		        	  Search_try st = new Search_try();
 		        	  st.driver = driver;
 		        	  st.joided_buyer_limits = false;
-					  st.try_title = "ca普通搜索活动-12/01-紫金-";
+					  st.try_title = "ca普通搜索活动-12/01-单期-";
 					  try_title = st.try_title;
 		        	  st.clear();
 		        	  st.testWebtest1();
@@ -110,7 +110,7 @@ public class Change_try_type {
 		        	  Package_try pt = new Package_try();
 		        	  pt.driver = driver;
 		        	  pt.joided_buyer_limits = false;
-					  pt.try_title = "ca套餐活动-12/01-紫金-";
+					  pt.try_title = "ca套餐活动-12/01-单期-";
 					  try_title = pt.try_title;
 		        	  pt.clear();
 		        	  pt.testWebtest1();
@@ -123,7 +123,7 @@ public class Change_try_type {
 		        	  App_try at =new App_try();
 		        	  at.driver =driver;
 		        	  at.joided_buyer_limits = false;
-					  at.try_title = "ca-app活动-12/01-紫金-";
+					  at.try_title = "ca-app活动-12/01-单期-";
 					  try_title = at.try_title;
 		        	  at.clear();
 		        	  at.testWebtest1();
@@ -136,7 +136,7 @@ public class Change_try_type {
 		        	  Cellphone_try ct = new Cellphone_try();
 		        	  ct.driver= driver;
 		        	  ct.joided_buyer_limits = false;
-					  ct.try_title = "ca手淘下单活动-12/01-紫金-";
+					  ct.try_title = "ca手淘下单活动-12/01-单期-";
 					  try_title = ct.try_title;
 		        	  ct.clear();
 		        	  ct.testWebtest1();
@@ -149,7 +149,7 @@ public class Change_try_type {
 		        	  Command_try comt = new Command_try();
 		        	  comt.driver = driver;
 		        	  comt.joided_buyer_limits = false;
-					  comt.try_title = "ca口令活动-12/01-紫金-";
+					  comt.try_title = "ca口令活动-12/01-单期-";
 					  try_title = comt.try_title;
 		        	  comt.clear();
 		        	  comt.testWebtest1();
@@ -162,7 +162,7 @@ public class Change_try_type {
 		        	  TaoSearch_try tst =new TaoSearch_try();
 		        	  tst.driver =driver;
 		        	  tst.joided_buyer_limits = false;
-					  tst.try_title = "ca手淘搜索活动-12/01-紫金-";
+					  tst.try_title = "ca手淘搜索活动-12/01-单期-";
 					  try_title = tst.try_title;
 		        	  tst.clear();
 		        	  tst.testWebtest1();

@@ -36,5 +36,11 @@ public class Pay_monney {
        	 }
 	 
         }
+        
+        while(true)
+        {
+      	  if(driver.getCurrentUrl().contains("pay_back"))
+      		  	break;
+        }
 	}
 }

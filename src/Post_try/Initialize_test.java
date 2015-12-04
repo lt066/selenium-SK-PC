@@ -26,7 +26,7 @@ public class Initialize_test {
 //		System.setProperty("webdriver.firefox.bin","C:\\Program Files\\Mozilla Firefox\\firefox.exe");
 //		driver = new FirefoxDriver();
 	    
-	    baseUrl = "http://www.sk4.com";
+	    baseUrl = "http://www.sk.com";
 	    driver0.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 	    driver0.get(baseUrl + "/");	  
 	    driver0.findElement(By.linkText("µÇÂ¼")).click();
